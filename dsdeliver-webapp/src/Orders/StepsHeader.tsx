@@ -7,7 +7,7 @@ function StepsHeader(){
           <br/>
           etapas
         </h1>
-        <ul className="steps-item">
+        <ul className="steps-items">
           <li>
             <span className="steps-number">1</span>
             Selecione os produtos e localização.
