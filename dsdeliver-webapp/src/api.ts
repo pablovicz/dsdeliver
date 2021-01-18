@@ -1,8 +1,7 @@
 import axios from "axios";
 import { OrderPayload } from "./types";
 
-const BASE_URL = 'http://localhost:8080';
-
+const BASE_URL = process.env.REACT_APP_BASE_URL;
 const mapboxToken = process.env.REACT_APP_ACCESS_TOKEN_MAP_BOX;
 
 export function fetchProducts(){
